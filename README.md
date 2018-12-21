@@ -8,7 +8,7 @@
 
   首先，我们需要注册一个ECMWF的账号，在官网点击[注册](https://apps.ecmwf.int/registration/)，如下图所示，进行注册：
 
-  ![login](./download_ECMWF_data/login.png)
+  ![login](./pic/login.png)
 
   在注册完成后，点击登陆即可。
 
@@ -16,7 +16,7 @@
 
   通过[此地址](https://api.ecmwf.int/v1/key/)可以获取API key。
 
-  ![apikey](./download_ECMWF_data/apikey.png)
+  ![apikey](./pic/apikey.png)
 
   再获取到此信息后，在`$HOME`下新建**.ecmwfapirc**，并将最后一栏内的信息，保存。
 
@@ -34,21 +34,21 @@
 
   点击[数据集](https://apps.ecmwf.int/datasets/)获取所有公开的数据集，如下图所示：
 
-  ![datasets](./download_ECMWF_data/datasets.png)
+  ![datasets](./pic/datasets.png)
 
   本人下载的是**ERA Interim**数据集，如下图所示：
 
-  ![ERA Interim](./download_ECMWF_data/selecteddataset.png)
+  ![ERA Interim](./pic/selecteddataset.png)
 
   选择下载月份、时间等信息，本人选择如下参数：
 
-  ![params](./download_ECMWF_data/params.png)
+  ![params](./pic/params.png)
 
   点击**View the MARS requests**,即可查看Python脚本代码
 
-  ![viewpythoncode](./download_ECMWF_data/viewpythoncode.png)
+  ![viewpythoncode](./pic/viewpythoncode.png)
 
-  ![resultcode](./download_ECMWF_data/resultcode.png)
+  ![resultcode](./pic/resultcode.png)
 
 2. 参数详解
 
@@ -60,7 +60,7 @@
 
       下面几个参数是本人下载的时候所查找的查找方式可以看上一节：
 
-      ![paramsvalue](./download_ECMWF_data/paramsvalue.png)
+      ![paramsvalue](./pic/paramsvalue.png)
 
   * format： 输出格式，可以指定为`netcdf`
 
